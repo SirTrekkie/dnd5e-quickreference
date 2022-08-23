@@ -166,6 +166,14 @@
     color: indigo;
 }
 
+#section-effect, #section-effect .item-icon {
+    background-color: orange;
+    border-color: orange;
+}
+#section-effect .text {
+    color: orange;
+}
+
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
@@ -175,6 +183,16 @@ body {
     display: flex;
     justify-content:center;
     align-content:center;
+}
+
+/* Hide Scroll Bar */
+body {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 /* ------------------------------------------------------------------------- */

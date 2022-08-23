@@ -40,6 +40,11 @@
                     You can also interact with one object or feature of the
                     environment for free.
                 </div>
+                <div class="section-row" id="basic-attack-actions"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    You can also interact with one object or feature of the
+                    environment for free.
+                </div>
                 <div class="section-row" id="basic-actions"></div>
             </div>
         </div>
@@ -92,13 +97,38 @@
                 <div class="section-row" id="death-conditions"></div>
             </div>
         </div>
+
+        <!-- Effect section -->
+        <div id="section-effect" class="section-container">
+            <div class="section-title">
+                Common Effects
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
+                </div>
+                <div class="section-row" id="basic-effect"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    The presence or absence of light in an environment creates three categories of illumination.
+                </div>
+                <div class="section-row" id="feature-effect"></div>
+            </div>
+        </div>
         
         <!-- Environmental section -->
         <div id="section-environment" class="section-container">
             <div class="section-title">
-                Environmental Effects
+                Cover & Vision
             </div>
             <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Obstacles can provide cover during combat, making a target more difficult to harm.
+                </div>
+                <div class="section-row" id="environment-cover"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Some creatures have extraordinary senses that allow them to perceive their environment.
+                </div>
+                <div class="section-row" id="environment-vision"></div>
                 <div class="section-row section-subtitle text fontsize">
                     Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
                 </div>
@@ -107,14 +137,6 @@
                     The presence or absence of light in an environment creates three categories of illumination.
                 </div>
                 <div class="section-row" id="environment-light"></div>
-                <div class="section-row section-subtitle text fontsize">
-                    Some creatures have extraordinary senses that allow them to perceive their environment.
-                </div>
-                <div class="section-row" id="environment-vision"></div>
-                <div class="section-row section-subtitle text fontsize">
-                    Obstacles can provide cover during combat, making a target more difficult to harm.
-                </div>
-                <div class="section-row" id="environment-cover"></div>
             </div>
         </div>
 
@@ -150,6 +172,9 @@
     <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_effect.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_passive.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_homebrew.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
 </body>
 </html>

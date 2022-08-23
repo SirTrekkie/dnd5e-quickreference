@@ -13,6 +13,11 @@
 .icon-sleep { background-image: url(../img/Sleep.svg);}
 
 .icon-healing-potion { background-image: url(../img/HealingPotion.svg);}
+.icon-initiative { background-image: url(../img/Initiative.png);}
+.icon-curse { background-image: url(../img/Curse.svg);}
+.icon-polymorph { background-image: url(../img/Polymorph.svg);}
+.icon-wildshape { background-image: url(../img/Wildshape.png);}
+.icon-bardic { background-image: url(../img/Bardic.svg);}
 
 .icon-dead { background-image: url(../img/Dead.png);}
 .icon-dying { background-image: url(../img/Dying.svg);}
@@ -20,7 +25,6 @@
 
 .icon-blinded { background-image: url(../img/Blinded.svg);}
 .icon-charmed { background-image: url(../img/Charmed.svg);}
-.icon-cursed { background-image: url(../img/Cursed.svg);}
 .icon-defeaned { background-image: url(../img/Defeaned.svg);}
 .icon-exhaustion { background-image: url(../img/Exhaustion.svg);}
 .icon-frightened { background-image: url(../img/Frightened.svg);}
@@ -30,7 +34,6 @@
 .icon-paralyzed { background-image: url(../img/Paralyzed.svg);}
 .icon-petrified2 { background-image: url(../img/Petrified.svg);}
 .icon-petrified { background-image: url(../img/Petrified2.svg);}
-.icon-polymorphed { background-image: url(../img/Polymorphed.svg);}
 .icon-poisoned { background-image: url(../img/Poisoned.svg);}
 .icon-prone { background-image: url(../img/Prone.svg);}
 .icon-restrained { background-image: url(../img/Restrained.svg);}
@@ -58,6 +61,7 @@
 .icon-stopwatch { background-image: url(../img/stopwatch.png);}
 .icon-embrassed-energy { background-image: url(../img/embrassed-energy.png);}
 
+.icon-tremorsense { background-image: url(../img/suspicious.svg);}
 .icon-bleeding-eye { background-image: url(../img/bleeding-eye.png);}
 .icon-lightning-tear { background-image: url(../img/lightning-tear.png);}
 .icon-star-pupil { background-image: url(../img/star-pupil.png);}
@@ -65,6 +69,6 @@
 .icon-worried-eyes { background-image: url(../img/worried-eyes.png);}
 .icon-one-eyed { background-image: url(../img/one-eyed.png);}
 .icon-eye-shield { background-image: url(../img/eye-shield.png);}
-.icon-broken-shield { background-image: url(../img/broken-shield.png);}
-.icon-cracked-shield { background-image: url(../img/cracked-shield.png);}
-.icon-shield { background-image: url(../img/shield.png);}
+.icon-three-quarters-cover { background-image: url(../img/three-quarters-cover.png);}
+.icon-half-cover { background-image: url(../img/half-cover.png);}
+.icon-full-cover { background-image: url(../img/full-cover.png);}
