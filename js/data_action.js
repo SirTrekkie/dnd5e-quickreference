@@ -14,32 +14,6 @@ data_action = [
         ]
     },
     {
-        title: "Grapple",
-        icon: "grappled",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
-        ]
-    },
-    {
-        title: "Shove",
-        icon: "punch",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195.",
-        bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
-        ]
-    },
-    {
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 action",
@@ -66,7 +40,7 @@ data_action = [
         title: "Disengage",
         icon: "journey",
         subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
@@ -75,7 +49,7 @@ data_action = [
         title: "Dodge",
         icon: "dodge",
         subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        description: "Focus entirely on avoiding attacks.",
         reference: "PHB, pg. 192.",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -86,7 +60,7 @@ data_action = [
         title: "Escape",
         icon: "manacles",
         subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        description: "Escape a grapple.",
         reference: "PHB, pg. 195.",
         bullets: [
             "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
@@ -94,10 +68,23 @@ data_action = [
         ]
     },
     {
+        title: "Grapple *Special-Attack",
+        icon: "grappled",
+        subtitle: "Special melee attack",
+        description: "Attempt to grab a creature or wrestle with it",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
+            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+        ]
+    },
+    {
         title: "Help",
         icon: "help",
         subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        description: "Grant an ally advantage on an ability check or attack.",
         reference: "PHB, pg. 192.",
         bullets: [
             "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
@@ -106,32 +93,10 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
-        icon: "object",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
-        reference: "PHB, pg. 193.",
-        bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use, you also take this action."
-        ]
-    },
-    {
-        title: "Use shield",
-        icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
-        ]
-    },
-    {
         title: "Hide",
         icon: "hide",
         subtitle: "Attempt to hide",
-        description: "Attempt to hide",
+        description: "You are unseen and are trying to be unheard.",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
@@ -142,10 +107,45 @@ data_action = [
         ]
     },
     {
+        title: "Object interaction",
+        icon: "object",
+        subtitle: "Interact, use special abilities",
+        description: "Interact with a second object or use special object abilities.",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "When an object requires your action for its use, you also take this action."
+        ]
+    },
+    {
+        title: "Equip shield",
+        icon: "round-shield",
+        subtitle: "Equip or unequip a shield",
+        description: "Equip or unequip a shield.",
+        reference: "PHB, pgs. 144-146.",
+        bullets: [
+            "A shield always takes an action to equip or unequip.",
+            "Armor takes several minutes to equip or unequip."
+        ]
+    },
+    {
+        title: "Shove *Special-Attack",
+        icon: "punch",
+        subtitle: "Special melee attack",
+        description: "Shove a creature, either to knock it prone or push it away from you.",
+        reference: "PHB, pg. 195.",
+        bullets: [
+            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
+            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+        ]
+    },
+    {
         title: "Search",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
+        subtitle: "Look for something",
+        description: "Devote your attention to finding something.",
         reference: "PHB, pg. 193.",
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
@@ -155,7 +155,7 @@ data_action = [
         title: "Ready",
         icon: "stopwatch",
         subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        description: "Choose a trigger and a response reaction.",
         reference: "PHB, pg. 193.",
         bullets: [
             "First, you decide what perceivable circumstance will trigger your reaction.",
@@ -168,7 +168,7 @@ data_action = [
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
+        description: "Use a racial or class feature that uses an action.",
         reference: "See class page for more information.",
         bullets: [
 
@@ -178,7 +178,7 @@ data_action = [
         title: "Stabilize",
         icon: "stable",
         subtitle: "Save a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        description: "Stop a dying creature from needing to make death saving throws.",
         reference: "PHB, pg. 197.",
         bullets: [
             "Make a Wisdom (Medicine) check with DC 10",
@@ -190,7 +190,7 @@ data_action = [
         title: "Improvise",
         icon: "juggler",
         subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        description: "Perform any action you can imagine.",
         reference: "PHB, pg. 193.",
         bullets: [
             "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."

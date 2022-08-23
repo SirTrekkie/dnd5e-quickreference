@@ -3,19 +3,19 @@ data_condition = [
         title: "Blinded",
         icon: "blinded",
         subtitle: "You can't see",
-        description: "You can't see",
+        description: "You can't see.",
         reference: "PHB, pg. 290.",
         bullets: [
             "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "You have disadvantage on attack rolls, against creatures that you cannot see.",
+            "Attack rolls against you have disadvantage, from creatures that can see you."
         ]
     },
     {
         title: "Charmed",
         icon: "charmed",
         subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        description: "You are charmed by another creature.",
         reference: "PHB, pg. 290.",
         bullets: [
             "You can't attack your charmer or target them with harmful abilities or magical effects.",
@@ -26,27 +26,28 @@ data_condition = [
         title: "Deafened",
         icon: "defeaned",
         subtitle: "You can't hear",
-        description: "You can't hear",
+        description: "You can't hear.",
         reference: "PHB, pg. 290.",
         bullets: [
             "You automatically fail any ability check which requires hearing."
         ]
     },
     {
-        title: "Dodged*",
+        title: "Dodged",
         icon: "dodge",
-        subtitle: "You are dodging",
-        description: "You are dodging",
-        reference: "PHB, pg. 290.",
+        subtitle: "You haved dodged",
+        description: "Focus entirely on avoiding attacks.",
+        reference: "PHB, pg. 192.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
+            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
         ]
     },
     {
         title: "Frightened",
         icon: "frightened",
         subtitle: "You are frightened",
-        description: "You are frightened",
+        description: "You are frightened.",
         reference: "PHB, pg. 290.",
         bullets: [
             "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
@@ -57,7 +58,7 @@ data_condition = [
         title: "Grappled",
         icon: "grappled",
         subtitle: "You are grappled",
-        description: "You are grappled",
+        description: "You are grappled.",
         reference: "PHB, pg. 290.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
@@ -66,24 +67,22 @@ data_condition = [
         ]
     },
     {
-        title: "Hidden*",
+        title: "Hidden",
         icon: "hidden",
         subtitle: "You are hidden",
-        description: "You are hidden",
+        description: "You are hidden.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "You have attempted to hide from other creatures.",
+            "Until you are discovered or you stop hiding, that Dexterity (Stealth) check is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
+            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception."
         ]
     },
     {
         title: "Incapacitated",
         icon: "incapacitated",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "You are incapacitated",
+        description: "You can't take actions or reactions.",
         reference: "PHB, pg. 290.",
         bullets: [
         ]
@@ -91,21 +90,21 @@ data_condition = [
     {
         title: "Invisible",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "You are unseen",
+        description: "You can't be seen without the aid of magic or a special sense.",
         reference: "PHB, pg. 291.",
         bullets: [
             "For the purpose of hiding, you are heavily obscured.",
             "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "You have advantage on attack rolls, against creatures that cannot see you.",
+            "Attack rolls against you have disadvantage, from creatures that cannot see you."
         ]
     },
     {
         title: "Paralyzed",
         icon: "paralyzed",
         subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        description: "You can't do anything.",
         bullets: [
             "You are incapacitated and can't move or speak.",
             "Attack rolls against you have advantage.",
@@ -117,7 +116,7 @@ data_condition = [
         title: "Petrified",
         icon: "petrified",
         subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone).",
         reference: "PHB, pg. 291.",
         bullets: [
             "Your weight increases by a factor of ten, and you cease aging.",
@@ -132,7 +131,7 @@ data_condition = [
         title: "Poisoned",
         icon: "poisoned",
         subtitle: "You are poisoned",
-        description: "You are poisoned",
+        description: "You are poisoned.",
         reference: "PHB, pg. 292.",
         bullets: [
             "You have disadvantage on attack rolls and ability checks."
@@ -142,7 +141,7 @@ data_condition = [
         title: "Prone",
         icon: "prone",
         subtitle: "You are prone",
-        description: "You are prone",
+        description: "You are prone.",
         reference: "PHB, pg. 292.",
         bullets: [
             "Your only movement option is to crawl, unless you stand up.",
@@ -154,7 +153,7 @@ data_condition = [
         title: "Restrained",
         icon: "restrained",
         subtitle: "You are restrained",
-        description: "You are restrained",
+        description: "You are restrained.",
         reference: "PHB, pg. 292.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
@@ -167,7 +166,7 @@ data_condition = [
         title: "Stunned",
         icon: "stunned",
         subtitle: "You are stunned",
-        description: "You are stunned",
+        description: "You are stunned.",
         reference: "PHB, pg. 292.",
         bullets: [
             "You are incapacitated, can't move, and can speak only falteringly.",
@@ -179,7 +178,7 @@ data_condition = [
         title: "Unconscious",
         icon: "sleep",
         subtitle: "You are unconscious",
-        description: "You are unconscious",
+        description: "You are unconscious.",
         reference: "PHB, pg. 292.",
         bullets: [
             "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
@@ -195,7 +194,7 @@ data_condition_exhaustion = [
         title: "Exhaustion",
         icon: "exhaustion",
         subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        description: "Exhaustion is measured in six levels.",
         reference: "PHB, pg. 291.",
         bullets: [
             "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
@@ -212,7 +211,7 @@ data_condition_death = [
         title: "Dead",
         icon: "dead",
         subtitle: "You are dead",
-        description: "You have been dropped to zero hit points and are dying",
+        description: "You have been dropped to zero hit points and are dying.",
         reference: "PHB, pg. 197.",
         bullets: [
             "You are dead.",
@@ -224,7 +223,7 @@ data_condition_death = [
         title: "Dying",
         icon: "dying",
         subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        description: "You have been dropped to zero hit points and are dying.",
         reference: "PHB, pg. 197.",
         bullets: [
             "You are dying.",
@@ -243,7 +242,7 @@ data_condition_death = [
         title: "Stable",
         icon: "stable",
         subtitle: "You are stable",
-        description: "You are at zero hit points and are stable",
+        description: "You are at zero hit points and are stable.",
         reference: "PHB, pg. 197.",
         bullets: [
             "You are unconscious, prone and stable.",

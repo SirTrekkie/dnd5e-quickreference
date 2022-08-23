@@ -3,7 +3,7 @@ data_homebrew = [
         title: "Opportunity attack",
         icon: "reaction",
         subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
+        description: "You can rarely move heedlessly past your foes without putting yourself in danger.",
         reference: "PHB, pg. 195.",
         bullets: [
             "Trigger: enemy creature you can see leaves your reach.",
@@ -16,7 +16,7 @@ data_homebrew = [
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
+        description: "Cast a spell with a casting time of 1 reaction.",
         reference: "PHB, pg. 192.",
         bullets: [
             "Trigger: specified by the spell.",
@@ -27,7 +27,7 @@ data_homebrew = [
         title: "Readied action",
         icon: "stopwatch",
         subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
+        description: "Execute the reaction specified by your Ready action.",
         reference: "PHB, pg. 193.",
         bullets: [
             "Trigger: specified by your <i>Ready</i> action."
@@ -37,7 +37,7 @@ data_homebrew = [
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        description: "Use a racial or class feature that uses a bonus action.",
         reference: "See class page for more information.",
         bullets: [
 

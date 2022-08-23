@@ -3,7 +3,7 @@ data_effect = [
         title: "Wildshape",
         icon: "polymorphed",
         subtitle: "Recover health in combat",
-        description: "Recover health in combat",
+        description: "Recover health in combat.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable for healing potions during combat."
@@ -13,7 +13,7 @@ data_effect = [
         title: "Bardic",
         icon: "bardic",
         subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        description: "Attack with your off hand.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",

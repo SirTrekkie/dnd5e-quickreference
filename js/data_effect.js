@@ -3,7 +3,7 @@ data_effect = [
         title: "Cursed*",
         icon: "cursed",
         subtitle: "You are cursed",
-        description: "You are cursed by another creature",
+        description: "You are cursed by another creature.",
         reference: "PHB, pg. 290.",
         bullets: [
             "You can't attack your charmer or target them with harmful abilities or magical effects.",
@@ -11,10 +11,10 @@ data_effect = [
         ]
     },
     {
-        title: "Polymorphed*",
+        title: "Polymorph",
         icon: "polymorphed",
         subtitle: "You are polymorphed",
-        description: "You are polymorphed",
+        description: "You are polymorphed.",
         reference: "PHB, pg. 292.",
         bullets: [
             "You have been polymorphed."
@@ -24,7 +24,7 @@ data_effect = [
         title: "Wildshape",
         icon: "polymorphed",
         subtitle: "Recover health in combat",
-        description: "Recover health in combat",
+        description: "Recover health in combat.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable for healing potions during combat."
@@ -34,7 +34,7 @@ data_effect = [
         title: "Bardic",
         icon: "bardic",
         subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        description: "Attack with your off hand.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
@@ -47,7 +47,7 @@ data_effect = [
         title: "Initiative",
         icon: "initiative",
         subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        description: "Attack with your off hand.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
@@ -60,7 +60,7 @@ data_effect = [
         title: "Ready",
         icon: "ready",
         subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        description: "Cast a spell with a casting time of 1 bonus action.",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
@@ -71,7 +71,7 @@ data_effect = [
         title: "Help",
         icon: "help",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        description: "Use a racial or class feature that uses a bonus action.",
         reference: "See class page for more information.",
         bullets: [
 
@@ -81,7 +81,7 @@ data_effect = [
         title: "Concentration",
         icon: "concentration",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        description: "Use a racial or class feature that uses a bonus action.",
         reference: "See class page for more information.",
         bullets: [
 

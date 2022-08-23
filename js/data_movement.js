@@ -3,7 +3,7 @@ data_movement = [
         title: "Move",
         icon: "run",
         subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        description: "Movement cost: 5ft per 5ft moved.",
         reference: "PHB, pg. 190.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
@@ -18,7 +18,7 @@ data_movement = [
         icon: "stone-pile",
         subtitle: "Cost modifier: +5ft per 5ft",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement.",
         bullets: [
         ]
     },
@@ -26,7 +26,7 @@ data_movement = [
         title: "Climb",
         icon: "crags",
         subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        description: "Movement cost: 10ft per 5ft climbed.",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -36,7 +36,7 @@ data_movement = [
         title: "Swim",
         icon: "at-sea",
         subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        description: "Movement cost: 10ft per 5ft swum.",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
@@ -46,7 +46,7 @@ data_movement = [
         title: "Crawl",
         icon: "prone",
         subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        description: "Movement cost: 10ft per 5ft crawled.",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -56,7 +56,7 @@ data_movement = [
         title: "Drop prone",
         icon: "prone",
         subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        description: "Movement cost: 0ft (free).",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
             "You can drop prone without using any of your speed",
@@ -68,7 +68,7 @@ data_movement = [
         title: "Stand up",
         icon: "strong",
         subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        description: "Movement cost: half of your speed.",
         reference: "PHB, pg. 190-191.",
         bullets: [
             "You can't stand up if you don't have enough movement left or if your speed is 0"
@@ -78,7 +78,7 @@ data_movement = [
         title: "High jump",
         icon: "walking-boot",
         subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        description: "Movement cost: 5ft per 5ft jumped.",
         
         reference: "PHB, pg. 182.",
         bullets: [
@@ -92,7 +92,7 @@ data_movement = [
         title: "Long jump",
         icon: "walking-boot",
         subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        description: "Movement cost: 5ft per 5ft jumped.",
         reference: "PHB, pg. 182.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
@@ -105,7 +105,7 @@ data_movement = [
         title: "Grapple move",
         icon: "grappled",
         subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        description: "Drag or carry the grappled creature with you.",
         reference: "PHB, pg. 195.",
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
@@ -116,7 +116,7 @@ data_movement = [
         title: "Improvise",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        description: "Perform any movement or stunt you can imagine.",
         bullets: [
             "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
         ]

@@ -2,7 +2,7 @@ data_bonusaction = [{
         title: "Offhand Attack",
         icon: "crossed-swords",
         subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        description: "Attack with your off hand.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
@@ -15,7 +15,7 @@ data_bonusaction = [{
         title: "Cast a spell",
         icon: "magic-swirl",
         subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        description: "Cast a spell with a casting time of 1 bonus action.",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
@@ -26,7 +26,7 @@ data_bonusaction = [{
         title: "Drink Healing Potion",
         icon: "healing-potion",
         subtitle: "Recover health in combat",
-        description: "Recover health in combat",
+        description: "Recover health in combat.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Only usable for healing potions during combat."
@@ -36,7 +36,7 @@ data_bonusaction = [{
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
+        description: "Use a racial or class feature that uses a bonus action.",
         reference: "See class page for more information.",
         bullets: [
 
